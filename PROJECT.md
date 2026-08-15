@@ -4,7 +4,7 @@ Local-only Expo/React Native/TypeScript panic/anxiety first-responder app. See [
 
 ## 1. SDK version
 
-Built on **Expo SDK 57** (`~57.0.13` as installed; live-checked via `npm view expo dist-tags` at scaffold time — `latest: 57.0.13`). Unlike this developer's prior project (ExpiryTrack, deliberately pinned to SDK 54 for physical-device Expo Go compatibility at the time), this app was scaffolded fresh against the current `create-expo-app` default. **Revisit before upgrading further**: check what the installed Expo Go build on the actual test device supports before bumping SDK version — "npm's `latest` tag" and "what Expo Go can currently open" are two different things and have diverged before on this developer's other projects.
+Built on **Expo SDK 54** (`^54.0.36`), matching this developer's standing convention across their app portfolio (see [ExpiryTrack](../ExpiryTrack/PROJECT.md) §1 — SDK 54 pinned there because that's what Expo Go on the physical test device supported). The project was initially scaffolded against `create-expo-app`'s then-current default (SDK 57) and downgraded to SDK 54 once that convention was confirmed — `npx expo install expo@54.0.36` followed by `npx expo install --fix` to realign every other Expo-managed package, then a clean `node_modules`/`package-lock.json` reinstall. **Revisit before upgrading further**: check what the installed Expo Go build on the actual test device supports before bumping SDK version — default to SDK 54 unless explicitly told otherwise, don't chase npm's `latest` tag reflexively.
 
 ## 2. How this idea was chosen — market research decision trail
 

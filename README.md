@@ -1,7 +1,7 @@
 # BreatheBox
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Expo SDK](https://img.shields.io/badge/Expo%20SDK-57-000020.svg?logo=expo)
+![Expo SDK](https://img.shields.io/badge/Expo%20SDK-54-000020.svg?logo=expo)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6.svg?logo=typescript&logoColor=white)
 
 A narrow, local-only panic/anxiety-attack first-responder. Open the app mid-panic-attack or anxiety spike and get an instant (no login, no loading) guided box-breathing exercise or a 5-4-3-2-1 grounding sequence. No account, no backend, no AI, no data ever leaves your device.
@@ -31,7 +31,7 @@ No accounts, no cloud sync, no AI features, no companion/mascot art, no analytic
 
 | Layer | Choice |
 |---|---|
-| Framework | [Expo](https://expo.dev) SDK 57 (React Native, React 19) |
+| Framework | [Expo](https://expo.dev) SDK 54 (React Native 0.81, React 19) |
 | Language | TypeScript (`strict`) |
 | Navigation | React Navigation v7 (native stack only, no tabs) |
 | Styling | [NativeWind](https://www.nativewind.dev) v4 (Tailwind for React Native) |
