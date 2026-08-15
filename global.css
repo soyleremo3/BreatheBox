@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Theme tokens — a single calming palette (soft teal/blue), fixed for v1.
+ * Colors are space-separated RGB channels so Tailwind's <alpha-value>
+ * modifier keeps working (e.g. bg-surface/50).
+ */
+:root {
+  --accent: 13 148 136; /* teal-600 */
+  --bg: 240 249 250; /* soft cyan-tinted background */
+  --surface: 255 255 255;
+  --surface-2: 224 242 241; /* teal-50 */
+  --hairline: 209 213 219; /* gray-300 */
+  --body: 15 23 42; /* slate-900 */
+  --muted: 71 85 105; /* slate-600 */
+  --faint: 148 163 184; /* slate-400 */
+}
